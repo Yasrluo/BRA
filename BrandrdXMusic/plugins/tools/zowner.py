@@ -11,13 +11,13 @@ from BrandrdXMusic.utils.database import add_served_chat, get_assistant
 @app.on_message(filters.command("repo"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/1aac9a42f6f35138da34b.jpg",
-        caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
+        photo=f"https://forkgraph.zaid.pro/file/S1l1OWEo7OZb",
+        caption=f"""𝕊𝕠𝕦𝕣𝕔𝕖 𝕃𝕃𝕋ℍ𝕆ℕ""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ƨσʋяcɛ", url=f"https://github.com/WCGKING/BrandrdXMusic"
+                        "ƨσʋяcɛ", url=f"https://github.com/Yasrluo/BRA"
                     )
                 ]
             ]
@@ -28,13 +28,13 @@ async def help(client: Client, message: Message):
 @app.on_message(filters.command("clone"))
 async def clones(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/1aac9a42f6f35138da34b.jpg",
+        photo=f"https://forkgraph.zaid.pro/file/S1l1OWEo7OZb",
         caption=f"""**🙂You Are Not Sudo User So You Are Not Allowed To Clone Me.**\n**😌Click Given Below Button And Host Manually Otherwise Contact Owner Or Sudo Users For Clone.**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ƨσʋяcɛ", url=f"https://github.com/WCGKING/BrandrdXMusic"
+                        "ƨσʋяcɛ", url=f"https://github.com/Yasrluo/BRA"
                     )
                 ]
             ]
@@ -48,7 +48,7 @@ async def clones(client: Client, message: Message):
 @app.on_message(
     filters.command(
         ["hi", "hii", "hello", "hui", "good", "gm", "ok", "bye", "welcome", "thanks"],
-        prefixes=["/", "!", "%", ",", "", ".", "@", "#"],
+        prefixes=["", "!", "%", ",", "", ".", "@", "#"],
     )
     & filters.group
 )
